@@ -2,7 +2,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"><script>
 function go(){
   var x=window.open('https://www.google.com/csi', '_blank');
-  setTimeout(function(){x.document.body.innerHTML='<h1>Please login</h1>'},3000);
+  x.document.body.innerHTML='<h1>Please login</h1>';
 }
 </script>
 </head><body><button onclick="go()">go</button>
